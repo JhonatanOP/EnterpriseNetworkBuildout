@@ -16,7 +16,7 @@ The lab uses a virtual router connected to two switches. The switches are segmen
 
 ## Steps
 
-1. **Design the topology.** Plan the IP addressing scheme and VLAN assignments. VLANs allow a single physical switch to operate as multiple virtual switches; traffic cannot cross VLAN boundaries without a router【554230438183839†L60-L92】.
+1. **Design the topology.** Plan the IP addressing scheme and VLAN assignments. VLANs allow a single physical switch to operate as multiple virtual switches; traffic cannot cross VLAN boundaries without a router.
 2. **Create the network topology.** In your chosen emulator, add a router, two switches, a DHCP/DNS server and multiple client machines. Assign ports on the switches to VLAN 10 (IT), VLAN 20 (HR) and VLAN 30 (Marketing).
 3. **Configure core services.**  
    * Install and configure a DHCP server to automatically assign IP addresses within each subnet.  
