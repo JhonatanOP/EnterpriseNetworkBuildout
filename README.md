@@ -4,7 +4,7 @@ This project simulates building a complete network infrastructure for a small/me
 
 ## Topology
 
-![Enterprise Network Topology]("Enterprise N1.png")
+![Enterprise Network Topology](Enterprise_N1.png)
 
 The lab uses a virtual router connected to two switches. The switches are segmented into VLANs (VLAN 10 for IT, VLAN 20 for HR and VLAN 30 for Marketing). A DHCP/DNS server provides network services, and a firewall sits between the network and the internet. Clients in each VLAN communicate through the router.
 
